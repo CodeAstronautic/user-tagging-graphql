@@ -1,0 +1,14 @@
+{
+  application: {
+    port: 6000,
+    jwt: {
+      key: "",
+      expireDate: "20w",
+      salt: 12,
+    },
+  },
+  database: {
+    mongo_url: "",
+    mongo_test_url: "",
+  },
+}
